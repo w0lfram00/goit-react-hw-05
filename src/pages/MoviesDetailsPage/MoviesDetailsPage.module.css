@@ -1,0 +1,14 @@
+.details {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+
+  img {
+    width: 350px;
+  }
+}
+
+.additionalInfo {
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+}

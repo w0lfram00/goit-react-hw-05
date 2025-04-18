@@ -1,0 +1,15 @@
+.cast {
+  padding-top: 20px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+
+  * {
+    width: 250px;
+
+    img {
+      height: 375px;
+      object-fit: contain;
+    }
+  }
+}
