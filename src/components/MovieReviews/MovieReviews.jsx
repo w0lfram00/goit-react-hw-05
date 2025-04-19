@@ -13,7 +13,7 @@ const MovieReviews = () => {
       setReviews(response.results);
     };
     getData();
-  }, []);
+  }, [movieId]);
   if (!reviews) return;
   return reviews.length != 0 ? (
     <ul className={s.reviews}>
